@@ -1,0 +1,27 @@
+rand_ep0_notext_s1 on cuda: {'train': 197736, 'val': 28248, 'test': 56497}, inputs {'image': 'resnet', 'text': False, 'catlang': True, 'numeric': True, 'clip_sim': False, 'ep_days': 0, 'img_dim': 2048, 'meta_dim': 5, 'n_targets': 30}
+epoch  1  train 2.9227  val loss 2.2331  AMAE 1.8401  ASRC 0.8168  (3983s)
+epoch  2  train 1.9380  val loss 2.2668  AMAE 1.8144  ASRC 0.8186  (1105s)
+epoch  3  train 1.9183  val loss 2.4907  AMAE 1.9267  ASRC 0.8146  (1115s)
+epoch  4  train 1.8371  val loss 1.9646  AMAE 1.7631  ASRC 0.8294  (946s)
+epoch  5  train 1.8130  val loss 2.0053  AMAE 1.7474  ASRC 0.8305  (511s)
+
+epoch  6  train 1.7958  val loss 1.9751  AMAE 1.7203  ASRC 0.8337  (1115s)
+epoch  7  train 1.7409  val loss 1.8656  AMAE 1.6881  ASRC 0.8385  (692s)
+epoch  8  train 1.7079  val loss 1.8585  AMAE 1.6844  ASRC 0.8388  (505s)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 201, in _run_module_as_main
+  File "<frozen runpy>", line 87, in _run_code
+  File "C:\Users\rs708\Documents\FDS_Project\SMTPD\ext\train.py", line 135, in <module>
+    run(build_parser().parse_args())
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rs708\Documents\FDS_Project\SMTPD\ext\train.py", line 102, in run
+    losses.append(loss.item()); step += 1
+                  ~~~~~~~~~^^
+torch.AcceleratorError: CUDA error: an illegal memory access was encountered
+Search for `cudaErrorIllegalAddress' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+The CUDA driver logged these messages, which may provide useful details:
+Returning 700 (CUDA_ERROR_ILLEGAL_ADDRESS) from cuStreamSynchronize
+
+

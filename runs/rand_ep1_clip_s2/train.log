@@ -1,0 +1,7 @@
+rand_ep1_clip_s2 on cuda: {'train': 197736, 'val': 28248, 'test': 56497}, inputs {'image': 'clip', 'text': True, 'catlang': True, 'numeric': True, 'clip_sim': False, 'ep_days': 1, 'img_dim': 512, 'meta_dim': 6, 'n_targets': 29}
+epoch  1  train 2.1401  val loss 1.2816  AMAE 0.7750  ASRC 0.9585  (579s)
+epoch  2  train 0.8621  val loss 1.3256  AMAE 0.8071  ASRC 0.9582  (968s)
+epoch  3  train 0.8469  val loss 1.2363  AMAE 0.8651  ASRC 0.9578  (1065s)
+epoch  4  train 0.8459  val loss 1.1002  AMAE 0.7916  ASRC 0.9576  (1072s)
+epoch  5  train 0.8472  val loss 1.2883  AMAE 0.8955  ASRC 0.9577  (1071s)
+epoch  6  train 0.8517  val loss 1.1398  AMAE 0.8125  ASRC 0.9588  (1077s)

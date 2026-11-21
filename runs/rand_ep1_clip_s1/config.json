@@ -1,0 +1,39 @@
+{
+  "name": "rand_ep1_clip_s1",
+  "features": "C:\\Users\\rs708\\Documents\\FDS_Project\\features",
+  "runs_dir": "C:\\Users\\rs708\\Documents\\FDS_Project\\runs",
+  "split": "random",
+  "split_seed": 23,
+  "seed": 1,
+  "image": "clip",
+  "no_text": false,
+  "no_catlang": false,
+  "no_numeric": false,
+  "clip_sim": false,
+  "ep_days": 1,
+  "epochs": 40,
+  "patience": 5,
+  "batch_size": 256,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "in_memory": false,
+  "device": "cuda",
+  "overwrite": false,
+  "inputs": {
+    "image": "clip",
+    "text": true,
+    "catlang": true,
+    "numeric": true,
+    "clip_sim": false,
+    "ep_days": 1,
+    "img_dim": 512,
+    "meta_dim": 6,
+    "n_targets": 29
+  },
+  "sizes": {
+    "train": 197736,
+    "val": 28248,
+    "test": 56497
+  },
+  "trainable_params": 21427747
+}
