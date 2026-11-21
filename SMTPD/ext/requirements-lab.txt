@@ -1,0 +1,8 @@
+# Everything ext.train / ext.grid / ext.bench / ext.baselines need on the lab computer.
+# Install the CUDA build of torch first, using the command from https://pytorch.org/get-started/locally/
+torch
+numpy
+scipy
+scikit-learn
+pandas
+catboost
