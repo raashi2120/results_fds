@@ -1,0 +1,4 @@
+rand_ep0_nonumeric_s0 on cuda: {'train': 197736, 'val': 28248, 'test': 56497}, inputs {'image': 'resnet', 'text': True, 'catlang': True, 'numeric': False, 'clip_sim': False, 'ep_days': 0, 'img_dim': 2048, 'meta_dim': 0, 'n_targets': 30}
+epoch  1  train 3.3654  val loss 3.2339  AMAE 2.8716  ASRC 0.6380  (255s)
+epoch  2  train 2.4559  val loss 2.9293  AMAE 2.3792  ASRC 0.6780  (274s)
+epoch  3  train 2.4157  val loss 2.7990  AMAE 2.3794  ASRC 0.6799  (381s)

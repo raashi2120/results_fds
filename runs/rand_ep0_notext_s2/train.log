@@ -2,3 +2,6 @@ rand_ep0_notext_s2 on cuda: {'train': 197736, 'val': 28248, 'test': 56497}, inpu
 epoch  1  train 2.7989  val loss 2.2962  AMAE 1.8875  ASRC 0.8115  (529s)
 epoch  2  train 1.9356  val loss 2.3235  AMAE 1.8234  ASRC 0.8173  (507s)
 
+epoch  3  train 1.9174  val loss 2.3578  AMAE 1.8482  ASRC 0.8159  (282s)
+epoch  4  train 1.8413  val loss 2.0028  AMAE 1.7496  ASRC 0.8279  (291s)
+epoch  5  train 1.8163  val loss 1.9663  AMAE 1.7334  ASRC 0.8308  (462s)

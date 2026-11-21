@@ -1,0 +1,4 @@
+rand_ep0_nocatlang_s2 on cuda: {'train': 197736, 'val': 28248, 'test': 56497}, inputs {'image': 'resnet', 'text': True, 'catlang': False, 'numeric': True, 'clip_sim': False, 'ep_days': 0, 'img_dim': 2048, 'meta_dim': 5, 'n_targets': 30}
+epoch  1  train 2.8563  val loss 2.5913  AMAE 1.8863  ASRC 0.8218  (255s)
+epoch  2  train 1.8903  val loss 2.5878  AMAE 1.8449  ASRC 0.8238  (298s)
+epoch  3  train 1.8471  val loss 2.2297  AMAE 1.7915  ASRC 0.8297  (377s)
